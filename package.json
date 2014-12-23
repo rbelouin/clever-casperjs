@@ -1,0 +1,20 @@
+{
+  "name": "clever-casperjs",
+  "version": "1.0.0",
+  "description": "CasperJS demo for Clever-Cloud",
+  "main": "index.js",
+  "keywords": [
+    "clever-cloud",
+    "paas",
+    "casperjs"
+  ],
+  "author": "Rodolphe Belouin <rodolphe.belouin@clever-cloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "^1.1.0-beta3",
+    "express": "^4.10.6"
+  },
+  "scripts": {
+    "start": "./start.sh && node index.js"
+  }
+}
